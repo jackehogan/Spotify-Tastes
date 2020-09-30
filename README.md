@@ -9,3 +9,8 @@ Next run following cells to create data frame of users songs, default is 1000 mo
 Repeat with second users data
 
 Create a logistic regression classifier for each user. Use classifier to create playlist of songs with low classification confidence, representing songs in with similar shared  features. 
+
+See graphic featurescomparison.png for visual comparison of users features and points classified as shared.
+  blue - first user's songs
+  orange - second user's songs
+  green - song classified as overlap between users, added to playlist

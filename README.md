@@ -3,6 +3,9 @@ Compare Spotify data between users and create playlist of shared tastes.
 
 Run through a Jupyter notebook
 
+You will need to create a dashboard and recieve a client id and secret
+https://spotipy.readthedocs.io/en/2.16.0/#
+
 Spotify user data requires authorization, run first cell with spotify username entered as "username" variable. Will prompt authorization.
 Next run following cells to create dataframe of users songs, default is 1000 most recent in "saved songs"
 

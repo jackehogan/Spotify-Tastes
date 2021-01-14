@@ -7,7 +7,9 @@ You will need to create a dashboard and recieve a client id and secret
 https://spotipy.readthedocs.io/en/2.16.0/#
 
 Spotify user data requires authorization, run first cell with spotify username entered as "username" variable. Will prompt authorization.
-Next run following cells to create dataframe of users songs, default is 1000 most recent in "saved songs"
+Either use public playlists or saved songs as data, saved data will require Spotify login/password
+
+Next run following cells to create dataframe of users songs, recommended is using the yearly top 100 or retrieve 1000 most recent in "saved songs"
 
 Repeat with second users data
 
